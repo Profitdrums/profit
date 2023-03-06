@@ -1,0 +1,179 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+section {
+  display: flex;
+}
+section .aside {
+  border-right: 1px solid gainsboro;
+  width: 20%;
+  position: fixed;
+}
+section .aside .img {
+  margin: 25px 25px;
+}
+section .aside .menu {
+  margin-bottom: 20px;
+}
+section .aside .menu a {
+  display: flex;
+  margin-left: 25px;
+  margin-bottom: 30px;
+  text-decoration: none;
+  color: black;
+}
+section .aside .menu h3 {
+  margin-left: 10px;
+  font-size: 16px;
+}
+section .aside .menu2 a {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  margin-top: 95px;
+  margin-left: 25px;
+}
+section .aside .menu2 a h3 {
+  font: 10px;
+  margin-left: 10px;
+}
+section .aside .menu a h3:hover {
+  color: rgb(158, 52, 52);
+  transition: 0.5s;
+}
+section .main {
+  border-right: 1px solid gainsboro;
+  width: 50%;
+  margin-left: 20%;
+}
+section .main .icon {
+  align-items: center;
+  display: flex;
+  margin-top: 35px;
+  padding-left: 10px;
+  justify-content: space-between;
+}
+section .main .icon {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+section .main .icon img {
+  border-radius: 50%;
+  object-position: center;
+  object-fit: cover;
+  border: 2px solid #e2236b;
+  margin-left: 15px;
+}
+section .main .icon3 {
+  margin-top: 40px;
+  margin-left: 30px;
+}
+section .main .icon3 .icon4 {
+  display: flex;
+  align-items: center;
+}
+section .main .icon3 .icon4 h2 {
+  font-size: 13px;
+  margin-left: 15px;
+}
+section .main .icon3 .rona {
+  width: 80%;
+  height: 60%;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+section .main .icon3 .icon5 {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+section .main .icon3 .icon5 img {
+  margin-left: 10px;
+}
+section .main .icon3 .h2,
+p {
+  margin-left: 30px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+section .main .icon3 .h3 {
+  font-size: 14px;
+  margin-left: 30px;
+  color: gray;
+  margin-top: 10px;
+}
+
+section .another {
+  width: 30%;
+  padding: 20px 25px;
+}
+section .another .side {
+  display: flex;
+  margin-top: 25px;
+  justify-content: space-between;
+  align-items: center;
+}
+section .another .side .side2 {
+  display: flex;
+  align-items: center;
+}
+section .another .side .side2 h2 {
+  font-size: 13px;
+  margin-left: 10px;
+}
+section .another .side .side2 h2 span {
+  color: gray;
+}
+section .another .side a {
+  font-size: small;
+  color: rgb(59, 59, 230);
+}
+section .another .side3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  font-size: 15px;
+}
+section .another .side3 a {
+  color: rgb(167, 167, 179);
+}
+section .another .side4 {
+  display: flex;
+  margin-top: 25px;
+  justify-content: space-between;
+  align-items: center;
+}
+section .another .side4 .side5 {
+  display: flex;
+  align-items: center;
+}
+section .another .side4 .side5 h2 {
+  font-size: 13px;
+  margin-left: 10px;
+}
+section .another .side4 .side5 h2 span {
+  color: gray;
+}
+section .another .side4 a {
+  font-size: 13px;
+}
+section .another .side4 a:hover {
+  color: black;
+  transition: 0.5s;
+}
+
+section .another .more {
+  margin-top: 35px;
+}
+section .another .more p {
+  margin-top: 35px;
+  font-size: 12px;
+  color: rgb(129, 122, 122);
+  word-spacing: 4px;
+}
